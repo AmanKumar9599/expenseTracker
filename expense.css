@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    background-color: rgba(217, 217, 219,0.2);
+    border-radius: 2%;
+}
+.container h1{
+    margin-left: 4%;
+}
+#desc{
+    width: 90%;
+    height: 30px;
+    margin: 2% 3% 3% 3%;
+}
+#cateogary{
+    width: 90%;
+    height: 30px;
+    margin: 0% 3% 3% 3%;
+}
+#amount{
+    width: 90%;
+    height: 30px;
+    margin: 0% 3% 3% 3%;
+}
+#button{
+    width: 90%;
+    height: 30px;
+    margin: 0% 3% 3% 3%;
+    background-color: rgb(86, 176, 86);
+    border-radius: 1%;
+    color:white;
+    cursor: pointer;
+    border: 0;
+}
+#button1{
+    width: 90%;
+    height: 30px;
+    margin: 3% 3% 3% 3%;
+    background-color: rgb(86, 176, 86);
+    border-radius: 1%;
+    color:white;
+    cursor: pointer;
+    border: 0;
+}
+h3{
+    margin-left: 5%;
+    font-weight: bolder;
+}
+table{
+    padding: 5%;
+    margin-top: 2%;
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 3%;
+}
+th{
+    background-color: rgb(86, 176, 86);
+    padding: 1%;
+    text-align: left;
+    color: white;
+    border: 2px solid #ddd;
+}
+td{
+    padding: 1%;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+@media (width<=600px){
+    .container{
+        padding: 5%;
+    }
+}
